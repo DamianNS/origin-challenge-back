@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>origin_front</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Aplication\" />
+    <Folder Include="Repository\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="5.0.8" />
+  </ItemGroup>
+
+</Project>
